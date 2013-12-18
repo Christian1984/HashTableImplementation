@@ -13,11 +13,11 @@ Every HashTable object has one private parameter calles caStrategy which holds a
 HashTable resizes automatically when cetrain thresholds are violated. Thresholds are defined by the HashTable's final attributes MAX_LOAD_FACTOR and MIN_LOAD_FACTOR.
 
 TestcodeRandom class creates elements with random keys and random value and inserts them into the hashtable. It takes three command line parameters:
-args[0] number of elements to be inserted into the HashTable
-args[1] upper limit for the randomizer
-args[3] selected collision avoidance strategy [0-3]
+- args[0] number of elements to be inserted into the HashTable
+- args[1] upper limit for the randomizer
+- args[3] selected collision avoidance strategy [0-3]
 
-TODOs:
+Todos:
 - Implement HashTableResizeException, that handles errors when the hashtable is being resized
 - Implement an algorithm that resizes the hashtable to next prime
 
